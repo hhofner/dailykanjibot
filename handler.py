@@ -113,7 +113,9 @@ def run(event, context):
     print(f"test media id: {media_id}")
     data = {
         'status': content,
-        'media_ids': [media_id]
+        'media_ids': [media_id],
+        'visibility': 'unlisted',
+        'language': 'en'
     }
     response = requests.post(status_url, headers=headers, json=data)
     
