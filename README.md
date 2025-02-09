@@ -75,3 +75,9 @@ Running the above will automatically add `serverless-python-requirements` to `pl
 ## Dependencies
 
 To use the converter script, you need [imagemagick](https://imagemagick.org/).
+
+## Deploying faster
+
+```
+serverless deploy function --function postKanji
+```
